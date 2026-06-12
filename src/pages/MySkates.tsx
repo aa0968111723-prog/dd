@@ -1,5 +1,5 @@
 import { useState } from 'react'
-import { findAccessory, findSkate } from '../lib/catalog'
+import { useData } from '../lib/data'
 import { kmSinceWheelCare, skateKm, useStore } from '../lib/store'
 import type { MaintenanceEntry, OwnedSkate, SkateCategory } from '../lib/types'
 import { CATEGORY_EMOJI, CATEGORY_LABEL, WHEEL_CARE_KM, uid } from '../lib/types'
@@ -7,6 +7,7 @@ import { CATEGORY_EMOJI, CATEGORY_LABEL, WHEEL_CARE_KM, uid } from '../lib/types
 const today = () => new Date().toISOString().slice(0, 10)
 
 export default function MySkates() {
+  const { findSkate, findAccessory } = useData()
   const { gear, setGear, sessions, wishlist, setWishlist } = useStore()
   const [adding, setAdding] = useState(false)
   const [editing, setEditing] = useState<OwnedSkate | null>(null)

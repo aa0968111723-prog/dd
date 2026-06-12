@@ -1,5 +1,6 @@
 import { useRoute, navigate } from './lib/router'
 import type { Route } from './lib/router'
+import { useData } from './lib/data'
 import Home from './pages/Home'
 import Catalog from './pages/Catalog'
 import MySkates from './pages/MySkates'
@@ -16,6 +17,7 @@ const LINKS: { route: Route; label: string }[] = [
 
 export default function App() {
   const route = useRoute()
+  const { loaded, error } = useData()
   return (
     <>
       <nav className="nav">
@@ -37,11 +39,25 @@ export default function App() {
         </div>
       </nav>
       <main className="page">
-        {route === 'home' && <Home />}
-        {route === 'catalog' && <Catalog />}
-        {route === 'my-skates' && <MySkates />}
-        {route === 'mileage' && <Mileage />}
-        {route === 'accessories' && <Accessories />}
+        {!loaded ? (
+          <div className="empty">
+            <div className="big">🛼</div>
+            載入裝備資料中…
+          </div>
+        ) : error ? (
+          <div className="empty">
+            <div className="big">😢</div>
+            資料載入失敗，請重新整理頁面。
+          </div>
+        ) : (
+          <>
+            {route === 'home' && <Home />}
+            {route === 'catalog' && <Catalog />}
+            {route === 'my-skates' && <MySkates />}
+            {route === 'mileage' && <Mileage />}
+            {route === 'accessories' && <Accessories />}
+          </>
+        )}
       </main>
       <footer className="footer">
         走向健康，走向陽光 ☀️ — 資料僅供參考，實際售價以各通路為準。

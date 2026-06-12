@@ -1,5 +1,5 @@
 import { useMemo, useState } from 'react'
-import { ALL_BRANDS, SKATES, formatPrice } from '../lib/catalog'
+import { formatPrice, useData } from '../lib/data'
 import { useStore } from '../lib/store'
 import type { CatalogSkate, SkateCategory } from '../lib/types'
 import { CATEGORY_EMOJI, CATEGORY_LABEL, uid } from '../lib/types'
@@ -14,6 +14,7 @@ const PRICE_BUCKETS = [
 ]
 
 export default function Catalog() {
+  const { skates, brands } = useData()
   const { gear, setGear, wishlist, setWishlist } = useStore()
   const [cat, setCat] = useState<SkateCategory | 'all'>('all')
   const [brand, setBrand] = useState('all')
@@ -25,7 +26,7 @@ export default function Catalog() {
   const filtered = useMemo(() => {
     const bucket = PRICE_BUCKETS.find((b) => b.key === price)!
     const kw = q.trim().toLowerCase()
-    return SKATES.filter(
+    return skates.filter(
       (s) =>
         (cat === 'all' || s.category === cat) &&
         (brand === 'all' || s.brand === brand) &&
@@ -34,7 +35,7 @@ export default function Catalog() {
         s.priceMinTWD <= (bucket.max === Infinity ? 1e9 : bucket.max) &&
         (kw === '' || (s.brand + ' ' + s.model + ' ' + s.description).toLowerCase().includes(kw)),
     )
-  }, [cat, brand, level, price, q])
+  }, [skates, cat, brand, level, price, q])
 
   const ownedRefs = new Set(gear.map((g) => g.refId))
   const wishedRefs = new Set(wishlist.filter((w) => w.kind === 'skate').map((w) => w.refId))
@@ -67,7 +68,7 @@ export default function Catalog() {
     <>
       <h1 className="page-title">裝備圖鑑</h1>
       <p className="page-sub">
-        收錄 {SKATES.length} 款市售直排輪。價格為台灣市場參考行情，依通路與時間略有差異。
+        收錄 {skates.length} 款市售直排輪。價格為台灣市場參考行情，依通路與時間略有差異。
       </p>
 
       <div className="chip-row">
@@ -87,7 +88,7 @@ export default function Catalog() {
           <label>品牌</label>
           <select className="select" value={brand} onChange={(e) => setBrand(e.target.value)}>
             <option value="all">全部品牌</option>
-            {ALL_BRANDS.map((b) => (
+            {brands.map((b) => (
               <option key={b} value={b}>{b}</option>
             ))}
           </select>

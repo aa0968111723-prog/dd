@@ -1,6 +1,6 @@
 import { useMemo, useState } from 'react'
 import type { ReactNode } from 'react'
-import { ACCESSORIES, formatPrice } from '../lib/catalog'
+import { formatPrice, useData } from '../lib/data'
 import { useStore } from '../lib/store'
 import type { AccessoryType } from '../lib/types'
 import { ACCESSORY_EMOJI, ACCESSORY_LABEL, uid } from '../lib/types'
@@ -114,13 +114,14 @@ const GUIDES: Guide[] = [
 ]
 
 export default function Accessories() {
+  const { accessories } = useData()
   const { wishlist, setWishlist } = useStore()
   const [type, setType] = useState<AccessoryType | 'all'>('all')
   const [openGuide, setOpenGuide] = useState<number | null>(0)
 
   const filtered = useMemo(
-    () => ACCESSORIES.filter((a) => type === 'all' || a.type === type),
-    [type],
+    () => accessories.filter((a) => type === 'all' || a.type === type),
+    [accessories, type],
   )
   const wished = new Set(wishlist.filter((w) => w.kind === 'accessory').map((w) => w.refId))
 

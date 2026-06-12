@@ -1,9 +1,10 @@
 import { navigate } from '../lib/router'
 import { useStore } from '../lib/store'
-import { SKATES, ACCESSORIES } from '../lib/catalog'
+import { useData } from '../lib/data'
 
 export default function Home() {
   const { gear, sessions } = useStore()
+  const { skates, accessories } = useData()
   const totalKm = sessions.reduce((a, s) => a + s.km, 0)
   const now = new Date()
   const ym = `${now.getFullYear()}-${String(now.getMonth() + 1).padStart(2, '0')}`
@@ -33,11 +34,11 @@ export default function Home() {
 
       <div className="stat-row">
         <div className="stat-card">
-          <div className="num">{SKATES.length}</div>
+          <div className="num">{skates.length}</div>
           <div className="label">收錄直排輪款式</div>
         </div>
         <div className="stat-card">
-          <div className="num">{ACCESSORIES.length}</div>
+          <div className="num">{accessories.length}</div>
           <div className="label">收錄配件</div>
         </div>
         <div className="stat-card">

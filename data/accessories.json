@@ -1,0 +1,340 @@
+[
+  {
+    "type": "wheels",
+    "brand": "Hyper",
+    "model": "Concrete +G 80mm/84A（4入）",
+    "spec": "80mm / 84A，另有 72/76mm，街道輪，4顆一組",
+    "compatibility": "適用標準 8mm 軸心之休閒、freeskate 鞋款",
+    "priceMinTWD": 1300,
+    "priceMaxTWD": 1900,
+    "confidence": "high",
+    "description": "美國 Hyper 經典街道輪，84A 硬度配高回彈聚氨酯，抓地與耐磨表現平衡，粗糙柏油路也能穩定推進。適合休閒刷街、通勤與自由式玩家，是城市直排輪換輪的長青首選，多種尺寸可對應不同鞋款。"
+  },
+  {
+    "type": "wheels",
+    "brand": "Matter",
+    "model": "G13 110mm F1（單顆）",
+    "spec": "110mm，F1 footprint 配方，另有 100/125mm",
+    "compatibility": "適用 3x110 競速框架",
+    "priceMinTWD": 500,
+    "priceMaxTWD": 750,
+    "confidence": "high",
+    "description": "競速圈指標品牌 Matter 的主力輪，G13 採用獨家 footprint 接地設計，F1 配方回彈強、路感直接，高速巡航省力。適合馬拉松與場地競速選手，搭配 110mm 三輪架可發揮最大直線效率，通常以單顆計價。"
+  },
+  {
+    "type": "wheels",
+    "brand": "Undercover",
+    "model": "Nick Lomax 80mm/88A（4入）",
+    "spec": "80mm / 88A，子彈頭輪形，4顆一組",
+    "compatibility": "適用 4x80 freeskate 與城市刷街框架",
+    "priceMinTWD": 1300,
+    "priceMaxTWD": 1900,
+    "confidence": "high",
+    "description": "Powerslide 旗下 Undercover 的 Nick Lomax 簽名輪，子彈頭輪形滑行速度快、側向支撐佳，88A 偏硬配方耐磨壽命長。適合城市刷街與 freeskate 玩家提升速度與靈活度，是 4x80 框架升級換輪的熱門選擇。"
+  },
+  {
+    "type": "wheels",
+    "brand": "Rollerblade",
+    "model": "Hydrogen 90mm/85A（8入）",
+    "spec": "90mm / 85A，8顆一組，另有 80/100/110/125mm",
+    "compatibility": "適用 Rollerblade 及各品牌對應輪徑框架",
+    "priceMinTWD": 3000,
+    "priceMaxTWD": 4200,
+    "confidence": "high",
+    "description": "Rollerblade 旗艦輪系列，美國製造，以高回彈 PU 與磨耗均勻聞名，85A 硬度兼顧抓地與速度，七輻輪芯剛性足、過彎不變形。尺寸從 80 到 125mm 齊全，適合城市刷街與健身路滑玩家，是原廠鞋升級換輪的安全牌。"
+  },
+  {
+    "type": "wheels",
+    "brand": "Gyro",
+    "model": "F2R 80mm/85A（單顆）",
+    "spec": "80mm / 85A，另有 72/76mm，多色可選",
+    "compatibility": "適用 4x80 平花與 freeskate 框架",
+    "priceMinTWD": 250,
+    "priceMaxTWD": 400,
+    "confidence": "high",
+    "description": "來自韓國釜山的 Gyro 是平花與 freeskate 老牌，F2R 意為 Free to Ride，高回彈 PU 滑感順、彈性佳，顏色選擇豐富。適合平花過樁與自由式刷街玩家，72/76/80mm 規格可自由搭配前後配輪徑。"
+  },
+  {
+    "type": "wheels",
+    "brand": "Flying Eagle",
+    "model": "LazerWheelz 磁芯發光輪 76mm/88A（4入）",
+    "spec": "76mm / 88A，另有 72/80mm，磁石發電免電池",
+    "compatibility": "適用標準 8mm 軸心休閒與平花鞋款",
+    "priceMinTWD": 800,
+    "priceMaxTWD": 1300,
+    "confidence": "high",
+    "description": "飛鷹經典磁芯發光輪，靠輪芯磁石發電免裝電池，滑行即亮，夜刷辨識度與安全性大增。88A 硬度耐磨且日常刷街夠用，適合夜間團刷、表演與喜歡吸睛效果的玩家，72 到 80mm 多種尺寸可選。"
+  },
+  {
+    "type": "bearings",
+    "brand": "Twincam",
+    "model": "ILQ-9 Pro（16入）",
+    "spec": "ILQ 七珠結構，可拆防塵蓋，608 規格",
+    "priceMinTWD": 1200,
+    "priceMaxTWD": 1800,
+    "confidence": "high",
+    "description": "Twincam 高階培林，ILQ 七珠結構比傳統 ABEC 更耐衝擊、滾動更順，Pro 版搭配可拆卸防塵蓋方便保養。適合競速、馬拉松與高速刷街玩家，是許多原廠中高階鞋的標配升級款，一組十六顆。"
+  },
+  {
+    "type": "bearings",
+    "brand": "Twincam",
+    "model": "ILQ-7（16入）",
+    "spec": "ILQ 七珠結構，608 規格",
+    "priceMinTWD": 700,
+    "priceMaxTWD": 1200,
+    "confidence": "high",
+    "description": "入門進階皆宜的經典培林，七珠設計分散衝擊，順暢度與耐用度兼顧，價格實惠又好維護。適合休閒、平花與日常刷街使用，許多品牌原廠鞋即配備此型號，壞了直接買同款替換最省心，一組十六顆。"
+  },
+  {
+    "type": "bearings",
+    "brand": "Wicked",
+    "model": "ABEC 9 Freespin（16入）",
+    "spec": "ABEC-9 等級，低阻力潤滑，608 規格",
+    "priceMinTWD": 800,
+    "priceMaxTWD": 1300,
+    "confidence": "high",
+    "description": "Powerslide 旗下 Wicked 的高階款，Freespin 強調低阻力與長空轉，油脂用量精準、出廠順度佳。適合追求速度的刷街與競速玩家，價格比同級競品親民，是 CP 值頗高的培林升級選擇，一組十六顆。"
+  },
+  {
+    "type": "bearings",
+    "brand": "Wicked",
+    "model": "ABEC 7（16入）",
+    "spec": "ABEC-7 等級，608 規格",
+    "priceMinTWD": 500,
+    "priceMaxTWD": 900,
+    "confidence": "high",
+    "description": "Wicked 最普及的型號，防塵蓋與潤滑油配置均衡，順暢度足以應付日常所有滑行情境，耐用且免操心。適合新手第一次換培林，或當作練習鞋的消耗備品，各大經銷與蝦皮都容易買到，一組十六顆。"
+  },
+  {
+    "type": "bearings",
+    "brand": "Bones",
+    "model": "Reds（8入）",
+    "spec": "Skate Rated 標準，可拆蓋清潔，608 規格，一盒8顆",
+    "compatibility": "直排輪一雙需 16 顆，須購買兩盒",
+    "priceMinTWD": 650,
+    "priceMaxTWD": 950,
+    "confidence": "high",
+    "description": "滑板界傳奇培林，以 Skate Rated 標準取代 ABEC 評級，順暢耐操、可拆蓋清潔，全球口碑數十年不墜。一盒八顆，直排輪需購兩盒；適合預算有限又想要明顯升級感的玩家，保養得當壽命很長。"
+  },
+  {
+    "type": "frames",
+    "brand": "Endless Blading",
+    "model": "Endless 90 MK2",
+    "spec": "航太級鋁合金 CNC，4x90 平衡搖滾／3x110 平配雙配置，輪距 276mm",
+    "compatibility": "165mm 雙孔安裝（FR1、Rollerblade Twister 等），不相容 UFS",
+    "priceMinTWD": 7800,
+    "priceMaxTWD": 9800,
+    "confidence": "high",
+    "description": "美國 Endless Blading 的招牌多用途框架，鋁合金 CNC 切削，支援 4x90 平衡搖滾與 3x110 平配兩種配置，輪距 276mm。適合城市自由刷街的進階玩家，一套框架玩兩種風格，165mm 孔距鞋款皆可安裝。"
+  },
+  {
+    "type": "frames",
+    "brand": "Kizer",
+    "model": "Fluid V Superfluid",
+    "spec": "Superfluid 碳纖複合材質，平底配置，最大 4x61mm，S 245mm／L 268mm 兩種長度",
+    "compatibility": "UFS 規格特技鞋通用",
+    "priceMinTWD": 2700,
+    "priceMaxTWD": 3600,
+    "confidence": "high",
+    "description": "特技直排專用平底框架，Superfluid 碳纖複合材質滑桿順又耐磨，溝槽重新設計減少咬輪、鎖桿更穩。支援至 4x61mm 平配輪組，速度與穩定兼具，適合街式大落差與板場玩家，UFS 規格通用各品牌特技鞋。"
+  },
+  {
+    "type": "frames",
+    "brand": "Kizer",
+    "model": "Advance 80",
+    "spec": "Fluid 複合材質，UFS 規格，最大 4x80mm，附可上下 1mm 調整的搖滾墊片",
+    "compatibility": "UFS 規格特技鞋通用",
+    "priceMinTWD": 2500,
+    "priceMaxTWD": 3500,
+    "confidence": "high",
+    "description": "Kizer 的大輪 UFS 框架，採用耐磨 Fluid 複合材質，支援 4x80mm 輪組，附搖滾墊片可將輪位上下調整 1mm，自由切換靈活或穩定取向。適合從特技轉戰城市刷街的玩家，UFS 規格通用各品牌特技鞋。"
+  },
+  {
+    "type": "frames",
+    "brand": "Seba",
+    "model": "Deluxe Frame 243mm（4x80）",
+    "spec": "7000 系列鋁合金，243mm 軸距，最大 4x80mm，另有預搖滾 V 版與 UFS 版",
+    "compatibility": "165mm 雙孔安裝（Seba、FR 等平花鞋款）",
+    "priceMinTWD": 2400,
+    "priceMaxTWD": 3500,
+    "confidence": "high",
+    "description": "Seba 經典平花鋁框，243mm 短軸距轉向靈敏，7000 系列鋁合金剛性足，動作回饋清晰。適合平花過樁與 freestyle 玩家，搭配 76/80mm 前後配或選擇預搖滾版本調出搖滾腳感，165mm 孔距鞋款通用。"
+  },
+  {
+    "type": "frames",
+    "brand": "Powerslide",
+    "model": "Elite Casted Aluminum 3x110",
+    "spec": "鑄造鋁合金，3x110mm 配置",
+    "compatibility": "Trinity 三點安裝（部分版本為 165mm）",
+    "priceMinTWD": 2000,
+    "priceMaxTWD": 3200,
+    "confidence": "medium",
+    "description": "Powerslide 量產鑄造鋁框，3x110 配置在直線速度與操控間取得平衡，重量與價格都比 CNC 框親民許多。適合想從四輪 80mm 升級三輪大輪的刷街族，依鞋款選擇 Trinity 或 165mm 版本，是入門大輪的首選。"
+  },
+  {
+    "type": "protective",
+    "brand": "Ennui",
+    "model": "Park Tri-Pack 護具三件組",
+    "spec": "護膝＋護肘＋Allround 護掌，平面護蓋、雙綁帶，S-XL",
+    "priceMinTWD": 2200,
+    "priceMaxTWD": 3200,
+    "confidence": "high",
+    "description": "Powerslide 旗下護具品牌 Ennui 的三件組，含護膝、護肘與 Allround 護掌，平面護蓋設計讓跌倒時順勢滑出卸力。尼龍外層耐磨、雙綁帶穿脫快，適合刷街、板場與通勤族的全方位防護需求。"
+  },
+  {
+    "type": "protective",
+    "brand": "Triple 8",
+    "model": "Saver Series 3-Pack",
+    "spec": "護膝＋護肘＋護掌，高密度 EVA，可換式護掌支撐板，JR-XL",
+    "priceMinTWD": 1500,
+    "priceMaxTWD": 2300,
+    "confidence": "high",
+    "description": "美國老牌 Triple 8 經典三件組，護膝護肘採高密度 EVA 緩衝，護掌附可換式支撐板，做工紮實耐用。從滑板到直排輪通用，適合初學者與重視防護的成人玩家，尺寸齊全、各大通路都好取得。"
+  },
+  {
+    "type": "protective",
+    "brand": "Flying Eagle",
+    "model": "FE 護具三件組",
+    "spec": "護膝＋護肘＋護掌，透氣網布、魔鬼氈綁帶，S-XL",
+    "priceMinTWD": 800,
+    "priceMaxTWD": 1400,
+    "confidence": "medium",
+    "description": "飛鷹原廠護具組，含護膝、護肘、護掌三件，透氣網布加魔鬼氈綁帶，重量輕、活動度好不卡關節。價格親民，適合剛入門的大人與青少年搭配 FE 鞋款一次購足，日常刷街與練習的防護已相當足夠。"
+  },
+  {
+    "type": "helmet",
+    "brand": "Triple 8",
+    "model": "Sweatsaver Helmet",
+    "spec": "ABS 外殼，Sweatsaver 吸汗內襯可拆洗，多色多尺寸",
+    "priceMinTWD": 1800,
+    "priceMaxTWD": 2800,
+    "confidence": "high",
+    "description": "風靡滑板與直排圈的經典款，內襯 Sweatsaver 吸汗絨布柔軟舒適且可拆洗，外殼 ABS 耐衝擊，造型百搭。適合街式、板場與日常通勤使用，尺寸與配色選擇多，是許多玩家的第一頂專業頭盔。"
+  },
+  {
+    "type": "helmet",
+    "brand": "Ennui",
+    "model": "Elite Helmet",
+    "spec": "可拆帽簷，後旋鈕調整頭圍 54-59cm，多孔通風",
+    "priceMinTWD": 2400,
+    "priceMaxTWD": 3400,
+    "confidence": "high",
+    "description": "附可拆帽簷的都會風頭盔，後旋鈕調整頭圍、貼合度佳，多孔通風設計長時間滑行不悶熱，並具備安全認證。適合刷街、平花與通勤族，低調外型日常穿搭也不突兀，男女皆適用的人氣款。"
+  },
+  {
+    "type": "tools",
+    "brand": "Powerslide",
+    "model": "T-Tool 三向工具",
+    "spec": "整合內六角與十字起子的 T 型多功能工具",
+    "priceMinTWD": 250,
+    "priceMaxTWD": 450,
+    "confidence": "high",
+    "description": "直排輪保養必備的三向 T 型工具，整合內六角與十字起子，拆框、換輪、調整扣具一支搞定。體積小好攜帶，放進鞋袋出門團刷臨時調整超方便，新手要買的第一件工具就是它，準沒錯。"
+  },
+  {
+    "type": "tools",
+    "brand": "Bones",
+    "model": "Bearing Tool 培林拆裝器",
+    "spec": "槓桿式拆卸＋垂直壓入安裝，對應 608 培林（8mm 軸）",
+    "priceMinTWD": 550,
+    "priceMaxTWD": 900,
+    "confidence": "high",
+    "description": "滑板大廠 Bones 出品的培林拆裝器，槓桿式設計取出培林不傷內圈，安裝端可垂直壓入確保水平到位。清潔保養培林時必備，比用扳手硬撬安全得多，想拉長培林壽命就靠它，直排輪同樣適用。"
+  },
+  {
+    "type": "bags",
+    "brand": "Flying Eagle",
+    "model": "Portech 後背包 20L",
+    "spec": "1680D/800D 尼龍，20L，外掛可拆鞋架，17 吋筆電隔層",
+    "compatibility": "可外掛至 EU46、3x125/4x110 輪組的鞋款",
+    "priceMinTWD": 2200,
+    "priceMaxTWD": 3200,
+    "confidence": "high",
+    "description": "飛鷹招牌機能後背包，1680D 防潑水尼龍，外側可拆式鞋架最大可掛 3x125 大輪鞋，內有 17 吋筆電隔層。胸扣腰扣分散重量、背負穩定，適合通勤刷街兩用的玩家，把整套裝備一包帶著走。"
+  },
+  {
+    "type": "bags",
+    "brand": "Rollerblade",
+    "model": "Skate Bag 鞋袋",
+    "spec": "約 30L，主隔層放一雙直排輪，附護具收納前袋",
+    "priceMinTWD": 900,
+    "priceMaxTWD": 1600,
+    "confidence": "high",
+    "description": "Rollerblade 原廠鞋袋，主隔層可放一雙直排輪，前袋收納護具與工具，提把加可調背帶兩種揹法。透氣網孔幫助鞋內排濕除味，適合上課與團練攜帶裝備，是價格實惠的入門收納方案。"
+  },
+  {
+    "type": "brake",
+    "brand": "Rollerblade",
+    "model": "標準煞車塊（Brake Pad）",
+    "spec": "原廠橡膠煞車塊，單顆裝",
+    "compatibility": "對應多數 Rollerblade 休閒/健身鞋款（依鞋款型號選購）",
+    "priceMinTWD": 200,
+    "priceMaxTWD": 400,
+    "confidence": "high",
+    "description": "Rollerblade 原廠替換煞車塊，對應旗下多數休閒與健身鞋款，橡膠配方制動線性好控制。煞車磨到標示線就該更換，建議新手常備一顆備品；安裝僅需鬆開後輪軸心即可完成，自己動手很簡單。"
+  },
+  {
+    "type": "brake",
+    "brand": "Powerslide",
+    "model": "HABS 可調高度煞車系統",
+    "spec": "高度可調式煞車，對應 110/125mm 三輪配置",
+    "compatibility": "Powerslide Next、Swell 等三輪鞋款（依框架規格選購）",
+    "priceMinTWD": 900,
+    "priceMaxTWD": 1500,
+    "confidence": "medium",
+    "description": "Powerslide 為三輪大輪鞋開發的可調高度煞車系統，對應 110/125mm 輪徑，煞車塊高度可隨磨耗調整，延長使用壽命。適合 Next、Swell 等三輪鞋玩家補裝煞車，大輪刷街的安全感大增。"
+  },
+  {
+    "type": "liner",
+    "brand": "MyFit",
+    "model": "Fat Boy Dual Fit 內靴",
+    "spec": "高階 PU 與 EVA 加厚泡棉，Dual Fit 彈性鞋頭一靴涵蓋兩個尺碼，腳跟可熱塑",
+    "compatibility": "適用 Powerslide 及多數硬殼鞋款",
+    "priceMinTWD": 1800,
+    "priceMaxTWD": 2800,
+    "confidence": "high",
+    "description": "Powerslide 旗下 MyFit 的厚版舒適內靴，加厚泡棉包覆腳踝，Dual Fit 彈性鞋頭一款涵蓋兩個尺碼，腳跟區可熱塑貼合。適合原廠內靴塌陷想升級的玩家，腳感重生有感，多數硬殼鞋皆可替換使用。"
+  },
+  {
+    "type": "liner",
+    "brand": "Intuition",
+    "model": "Skate Premium Liner",
+    "spec": "高密度 Intuition 熱塑泡棉，可加熱塑形，附強化鞋舌與可拆鞋筒，10 個尺碼",
+    "compatibility": "適用特技鞋與多數可換內靴的硬殼直排輪",
+    "priceMinTWD": 6500,
+    "priceMaxTWD": 8800,
+    "confidence": "high",
+    "description": "特技直排圈公認的頂級熱塑內靴，高密度泡棉可加熱塑形貼合腳型，包覆紮實、緩震出色，大落差落地腳跟負擔小。適合特技鞋與硬殼鞋玩家的終極升級，價格不菲但壽命與舒適度對得起售價。"
+  },
+  {
+    "type": "liner",
+    "brand": "FR Skates",
+    "model": "FR 原廠替換內靴",
+    "spec": "記憶泡棉、加厚鞋舌，依鞋碼選購",
+    "compatibility": "FR1/FR2/FR3 與部分 Seba 鞋款",
+    "priceMinTWD": 1500,
+    "priceMaxTWD": 2600,
+    "confidence": "medium",
+    "description": "FR 鞋款的原廠替換內靴，記憶泡棉包覆、鞋舌加厚，對應 FR1、FR2、FR3 與部分 Seba 鞋款。內靴穿久塌陷支撐變差時直接換新，比換整雙鞋划算，也可加購升級腳感，依鞋碼選擇對應尺寸。"
+  },
+  {
+    "type": "laces",
+    "brand": "FR Skates",
+    "model": "蠟質鞋帶（Waxed Laces）",
+    "spec": "上蠟扁帶，多色多長度",
+    "priceMinTWD": 150,
+    "priceMaxTWD": 300,
+    "confidence": "medium",
+    "description": "FR 原廠蠟質鞋帶，表面上蠟不易鬆脫，綁緊後整天滑行不需重綁，耐磨係數也比一般棉繩高。多色可選方便客製鞋面風格，平花玩家尤其需要穩定的鞋帶張力，是便宜又有感的小升級項目。"
+  },
+  {
+    "type": "laces",
+    "brand": "Flying Eagle",
+    "model": "FE 替換鞋帶",
+    "spec": "寬版扁帶，直排輪專用長度，多色",
+    "priceMinTWD": 100,
+    "priceMaxTWD": 250,
+    "confidence": "medium",
+    "description": "飛鷹原廠替換鞋帶，長度針對直排輪鞋楦設計，寬版扁帶受力均勻、不咬腳背，顏色選擇豐富。鞋帶起毛或斷裂就該更換，建議買兩副輪替使用；蝦皮與台灣經銷皆易取得，多數品牌鞋款通用。"
+  }
+]
